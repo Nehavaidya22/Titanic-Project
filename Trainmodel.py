@@ -1,7 +1,3 @@
-import sys
-import sklearn.metrics._dist_metrics as dm
-sys.modules['sklearn.neighbors._dist_metrics']=dm
-
 import joblib
 import pandas as pd
 
